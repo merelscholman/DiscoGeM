@@ -8,15 +8,15 @@ We also make available the dataset with all annotator-level labels (65,863 obser
  ## Reference
  If you use this resource, please consider citing:
  
- @inproceedings{scholman2022DiscoGeM,
-    title = "DiscoGeM: A Crowdsourced Corpus of Genre-Mixed Implicit Discourse Relations",
-    author = "Scholman, Merel C. J.  and
-    Dong, Tianai and
-    Yung, Frances and
-    Demberg, Vera",
-    booktitle = "Proceedings of the Thirteenth International Conference on Language Resources and Evaluation ({LREC}'22)",
-    month = June,
-    year = "2022",
-    address = "Marseille, France",
-    publisher = "European Language Resources Association (ELRA)"
-}
+        @inproceedings{scholman2022DiscoGeM,
+           title = "DiscoGeM: A Crowdsourced Corpus of Genre-Mixed Implicit Discourse Relations",
+           author = "Scholman, Merel C. J.  and
+           Dong, Tianai and
+           Yung, Frances and
+           Demberg, Vera",
+           booktitle = "Proceedings of the Thirteenth International Conference on Language Resources and Evaluation ({LREC}'22)",
+           month = June,
+           year = "2022",
+           address = "Marseille, France",
+           publisher = "European Language Resources Association (ELRA)"
+       }
