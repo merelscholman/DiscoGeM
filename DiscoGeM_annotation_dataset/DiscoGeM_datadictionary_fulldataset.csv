@@ -1,0 +1,28 @@
+﻿Column_name,Meaning,Levels
+workerid,Anonymized worker identifier,
+itemid,The unique identifier for the relation.,
+filename,The name of the batch that the item occurred in,
+datasource,The source of the relation.,
+genre,The genre that the text comes from.,"novel, europarl, wikipedia, PDTB"
+orig_lang,The original language that the text was uttered in.,"English, German, French, Czech"
+reflabel,The reference label (wikipedia and PDTB relations only),
+majoritylabel,The non-sampled majority label,PDTB3 level 3 relation senses
+arg1,The first argument of the relation embedded in its context.,
+arg2,The second argument of the relation embedded in its context.,
+firstinput,The first connective phrase that the participant provided (free text),
+secondinput,The second connective phrase that the participant provided (forced choice),
+main_con1,The connective phrase that the firstinput was mapped to,
+lev3_conn1,The level 3 relation label that the firstinput was mapped to,
+lev2_conn1,The level 2 relation label that the firstinput was mapped to,
+lev1_conn1,The level 1 relation label that the firstinput was mapped to,
+main_con2,The connective phrase that the secondinput was mapped to,
+lev3_conn2,The level 3 relation label that the secondinput was mapped to,
+lev2_conn2,The level 2 relation label that the secondinput was mapped to,
+lev1_conn2,The level 1 relation label that the secondinput was mapped to,
+match_majority,Whether the participant's insertion matched the majority label,
+ppn_score_ref,"The participant's overall accuracy score, based on agreement with the reference labels",
+ppn_score_majority,"The participant's overall accuracy score, based on agreement with the majority labels",
+ppn_score_irt,"The participant's quality score, output from IRT",
+ppn_score_wqs,"The participant's quality score, output from CrowdTruth (measures the overall agreement of one crowd participant with the other participants)",
+ppn_score_wwa,"The participant's worker-worker agreement score, output from CrowdTruth (measures the average pairwise agreement between the participant and all other participants)",
+ppn_score_wsa,"The participant's worker-sentence agreement score, output from CrowdTruth (measures the similarity of the annotations of a participant and the aggregated annotations of all other participants)",

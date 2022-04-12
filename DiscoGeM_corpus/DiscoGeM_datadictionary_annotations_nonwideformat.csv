@@ -1,0 +1,8 @@
+﻿Column_name,Meaning,Levels
+Relation,The relation type; always Implicit.,implicit
+Genre,The genre that the text comes from.,"novel, europarl, wikipedia, PDTB"
+Datasource,The source of the relation.,
+Itemid,The unique identifier for the relation.,
+SemClass,The relation class annotation that was obtained through majority vote.,PDTB3 level 3 relation senses
+Arg1_RawText,The text that makes up the first argument of the relation.,
+Arg2_RawText,The text that makes up the second argument of the relation.,
