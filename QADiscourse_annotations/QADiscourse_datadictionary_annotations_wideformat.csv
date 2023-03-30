@@ -1,0 +1,18 @@
+﻿Column_name,Meaning,Levels
+itemid,The unique identifier for the relation.,
+datasource,The source of the relation.,
+genre,The genre that the text comes from.,"novel, europarl, wikipedia, PDTB"
+subgenre,The subgenre that the text comes from (novel only),included books
+orig_lang,The original language that the text was uttered in.,"English, German, French, Czech"
+speaker_id,The ID of the speaker (Europarl only),
+reflabel,The reference label (wikipedia and PDTB relations only),
+observations,The number of crowdsourced participants that provided an annotation for the item.,
+maxagree,The maximum number of participants that agreed on a single sense for the item.,
+majority_softlabel,"A distribution of probabilities for every PDTB3 level 3 relation sense for the item, based on majority votes.",PDTB3 level 3 relation senses
+majoritylabel_sampled,A single sense annotation for the item; sampled in case two or more senses received the same number of votes.,PDTB3 level 3 relation senses
+majority_distrlabel20,"Combination of all senses that reached a threshold of 20% agreement. In cases where no sense reached the threshold for an instance, the majoritylabel_sampled was assigned.",PDTB3 level 3 relation senses
+majority_distrlabel40,"Combination of all senses that reached a threshold of 40% agreement. In cases where no sense reached the threshold for an instance, the majoritylabel_sampled was assigned.",PDTB3 level 3 relation senses
+arg1,The first argument of the relation embedded in its context.,
+arg2,The second argument of the relation embedded in its context.,
+sent1,The text that makes up the first argument of the relation.,
+sent2,The text that makes up the second argument of the relation.,

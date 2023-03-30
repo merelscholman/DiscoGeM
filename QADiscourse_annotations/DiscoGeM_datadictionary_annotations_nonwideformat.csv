@@ -1,0 +1,8 @@
+﻿Column_name,Meaning
+instance_id,The unique identifier for the relation.
+question_start,The question prefix chosen by workers.
+level-2,The mapping from question_start to level-2 PDTB relation.
+level-3,The mapping from question_start to level-3 PDTB relation.
+question,The full question formed by workers.
+answer,The sentence chosen as answer.
+sent_q,Which sentence was chosen for the question (sentence 1 or 2).
