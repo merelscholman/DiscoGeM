@@ -2,7 +2,7 @@
  
 This repository contains the DiscoGeM corpus: A Crowdsourced Corpus of Genre-Mixed Inter-Sentential Implicit Discourse Relations annotated in PDTB3-style.
  
-DiscoGeM is a crowdsourced corpus of 6,505 implicit discourse relations from different genres. It contains data from political speech (Europarl), literature, and encyclopedic (Wikipedia) texts. It has now been updated with annotations of 200 implicit relations from the Penn Discourse Treebank (data stemming from newspaper text), to allow for a comparison between the methodologies.
+DiscoGeM is a crowdsourced corpus of 6,505 implicit discourse relations from different genres. It contains data from political speech (Europarl), literature, and encyclopedic (Wikipedia) texts. It has now been updated with annotations of an additional set of 300 implicit relations from the Penn Discourse Treebank (data stemming from newspaper text), to allow for a comparison between the methodologies.
 
 Each instance in DiscoGeM was annotated by 10 crowd workers, using a discourse connective insertion paradigm (see Yung et al., 2019; Scholman et al., 2022). In addition to the annotated dataset, we also make available the dataset with all annotator-level insertions and annotator quality scores.
 
