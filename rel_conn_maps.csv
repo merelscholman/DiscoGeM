@@ -1,0 +1,30 @@
+level3	level2	level1	en_conn	de_conn	fr_conn	cs_conn
+synchronous	synchronous	temporal	at the same time	gleichzeitig	en même temps	zároveň
+precedence	asynchronous	temporal	then	dann	ensuite	potom
+succession	asynchronous	temporal	after	davor,	après que	předtím
+reason	cause	contingency	bause	weil	parce que	protože
+result	cause	contingency	as a result	daher	c'est pourquoi	proto
+arg1-as-goal	purpose	contingency	for that purpose	dazu	à cette fin	za tím účelem
+arg2-as-goal	purpose	contingency	so that	sodass	afin que	aby
+arg1-as-cond	condition	contingency	in that case	insofern	dans ce cas	v tom případě
+arg1-as-negcond	condition	contingency	if not	sonst	sinon	jinak
+arg2-as-cond	condition	contingency	if	wenn	si	pokud
+arg2-as-negcond	condition	contingency	unless	es sei denn	à moins que	ledaže
+arg1-as-denier	concession	comparison	even though	obwohl	bien que	a to i přesto, že
+arg2-as-denier	concession	comparison	nonetheless	trotzdem	néanmoins	přesto
+contrast	contrast	comparison	on the other hand	andererseits	d'autre part	na druhou stranu
+similarity	similarity	comparison	similarly	gleichermaßen	de même	podobně
+equivalence	equivalence	expansion	in other words	anders gesagt	en d'autres termes	jinými slovy
+arg1-as-instance	instantiation	expansion	this illustrates that 	das verdeutlicht, dass 	cela illustre que	to je příkladem toho, že
+arg2-as-instance	instantiation	expansion	for example	zum Beispiel	par exemple	například
+arg1-as-detail	level-of-detail	expansion	in short	um es kurz zu machen	bref	zkrátka
+arg2-as-detail	level-of-detail	expansion	in more detail	genauer gesagt	plus précisement	konkrétně
+conjunction	conjunction	expansion	also	darüberhinaus	en plus	také
+disjunction	disjunction	expansion	or	oder	ou	nebo
+arg1-as-excpt	exception	expansion	other than that	abgesehen von dieser Ausnahme	à part cela/ça	kromě této výjimky
+arg2-as-excpt	exception	expansion	an exception is that	eine Ausnahme ist, dass	une exception est que	výjimkou je to, že
+arg1-as-manner	manner	expansion	thereby	hiermit	de cette manière	tímto způsobem
+arg2-as-manner	manner	expansion	as if	mittels	comme si	následujícím způsobem:
+arg1-as-subst	substitution	expansion	rather than	anstatt, dass	plutôt que	místo, aby
+arg2-as-subst	substitution	expansion	instead	stattdessen	au lieu de	místo toho
+norel	norel	norel	(no direct relations)	(keine direkte Beziehung)	(pas de relation directe)	(bez přímého vztahu)

@@ -1,0 +1,30 @@
+split		
+train/dev/test splits
+
+genre
+genre of the text: Europarl or Novel
+
+doc
+source document. Europarl proceeding ID or name of the novel
+
+orig_lang
+the original language of the text; other languages are translation
+
+available_langs
+list of language versions available for that item
+
+{MV|WAWA|ZBS|GLAD|MACE|DS}_{en|de|fr|cs}
+single aggregated label by each of the 7 aggregation methods for each language version of the item; empty values mean the language version is not included in that item
+
+{MV|WAWA|ZBS|GLAD|MACE|DS}_dist_{en|de|fr|cs}
+dictionary of the label distribution obtained by each aggregation method for each language version of the item; empty values mean the language version is not included in that item
+
+dist20_{MV|WAWA|ZBS|GLAD|MACE|DS}_{en|de|fr|cs}
+list of labels with distribution >= 0.2 based on the distribution obtained by each aggregation method for each language version of the item; empty values mean the language version is not available, but  [] means none of the labels have >= 0.2 distribution; 0.2 was chosen as the threshold based on evaluation against a subset of labels with reference annotation in DiscoGeM 1.0
+
+norm_entropy_{en|de|fr|cs}
+normalized entropy of the original label distribution (i.e. MV_dist) for each language version; NONE means the language version is not available
+
+{Arg1/arg2}_context_{en|de|fr|cs}
+The two text spans between which the annotators annotate the connective
+
