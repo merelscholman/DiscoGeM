@@ -8,7 +8,13 @@ DiscoGeM 1.0 is a crowdsourced corpus of 6,505 implicit discourse relations from
 
 Each instance in DiscoGeM was annotated by 10 crowd workers, using a discourse connective insertion paradigm (see Yung et al., 2019; Scholman et al., 2022). In addition to the annotated dataset, we also make available the dataset with all annotator-level insertions and annotator quality scores.
 
+The train/dev/test split indicated by the 'split' column was used in Yung et al., 2022. An alternative 10-fold cross-validation split is also provided.
+
 A subset of the data was also annotated using a Question-Answer annotation paradigm (see Pyatkin et al., 2023). These annotations can be found in the folder QADiscourse_annotations.
+
+ ## DiscoGeM 1.5
+
+DiscoGeM 1.5 is the re-annotation of the English data in DiscoGeM 1.0 using the forced-choice connective insertion approach employed in DiscoGeM 2.0, in contrast to the two-step free connective insertion method of DiscoGeM 1.0. 3223 annotations have been conducted by the same workers on the same items using both methods, with 3 years' time span in between, allowing direct comparison of annotation methods.
 
  ## DiscoGeM 2.0
 
@@ -64,6 +70,18 @@ Each instance was annotated by 10 crowd workers who are native speakers of the l
            publisher = "European Language Resources Association (ELRA) and International Committee on Computational Linguistics (ICCL)"
        }
 
+       @inproceedings{yung-demberg-2025-crowdsourcing,
+           title = "On Crowdsourcing Task Design for Discourse Relation Annotation",
+           author = "Yung, Frances  and
+           Demberg, Vera",
+           booktitle = "Proceedings of the 1st Workshop on Context and Meaning—Navigating Disagreements in NLP Annotations",
+           month = jan,
+           year = "2025",
+           address = "Abu Dhabi, UAE",
+           publisher = "International Conference on Computational Linguistics",
+       }
+
+
 
 ## Related work
 
@@ -77,7 +95,11 @@ Scholman, M.C.J., Pyatkin, V., Yung, F., Dagan, I., Tsarfaty, R., & Demberg, V. 
 Design Choices in Crowdsourcing Discourse Relation Annotations: The Effect of Worker Selection and Training. 
 Proceedings of the 13th International Conference on Language Resources and Evaluation (LREC 22), Marseille, France.
 
-<a id="1">[3]</a> 
+<a id="1">[3]</a>
+Label distributions help implicit discourse relation classification.
+Proceedings of the 3rd Workshop on Computational Approaches to Discourse (CODI 22), Gyeongju, Republic of Korea.
+
+<a id="1">[4]</a> 
 Yung, F., Demberg, V., & Scholman, M.C.J. (2019). 
 Crowdsourcing discourse relation annotations by a two-step connective insertion task. 
 Proceedings of the 13th Linguistic Annotation Workshop, Florence, Italy.
