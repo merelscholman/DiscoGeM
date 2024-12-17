@@ -14,7 +14,7 @@ A subset of the data was also annotated using a Question-Answer annotation parad
 
  ## DiscoGeM 1.5
 
-DiscoGeM 1.5 is the re-annotation of the English data in DiscoGeM 1.0 using the forced-choice connective insertion approach employed in DiscoGeM 2.0, in contrast to the two-step free connective insertion method of DiscoGeM 1.0. 3223 annotations have been conducted by the same workers on the same items using both methods, with 3 years' time span in between, allowing direct comparison of annotation methods.
+DiscoGeM 1.5 is the re-annotation of the English data in DiscoGeM 1.0 using the forced-choice connective insertion approach employed in DiscoGeM 2.0, in contrast to the two-step free connective insertion method of DiscoGeM 1.0. 3223 annotations have been conducted by the same workers on the same items using both methods, with a three-year gap in between, enabling a direct comparison of annotation approaches.
 
  ## DiscoGeM 2.0
 
@@ -96,6 +96,7 @@ Design Choices in Crowdsourcing Discourse Relation Annotations: The Effect of Wo
 Proceedings of the 13th International Conference on Language Resources and Evaluation (LREC 22), Marseille, France.
 
 <a id="1">[3]</a>
+Yung, F., Anuranjana, K., Scholman, M.C.J., Demberg, V (2022).
 Label distributions help implicit discourse relation classification.
 Proceedings of the 3rd Workshop on Computational Approaches to Discourse (CODI 22), Gyeongju, Republic of Korea.
 
