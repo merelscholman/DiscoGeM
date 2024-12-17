@@ -1,0 +1,59 @@
+DiscoGeM.1.5.csv contains the aggregated labels annotated by the free and forced-choice connective insertion.
+
+split : Train / Dev / test split used in Yung, 2022
+10fold_split : alternative 10-fold cross-validation split
+itemid : item id
+genre : EP=Europarl, WK = Wikipedia, NV = novel
+arg1_context_en : arg1 + context 
+arg2_context_en : arg2 + context
+WAWA_free : WAWA aggregated single label based on annotation by the free-choice approach
+WAWA_forced : ... by the forced-choice approach
+WAWA_dist_free : WAWA aggregated label distributed 	based on annotation by the free-choice approach
+WAWA_dist_forced : ... by the forced-choice approach 
+dist40_WAWA_free : Labels with 40% or more distribution based on annotation by the free-choice approach
+dist40_WAWA_forced	: ... by the forced-choice approach
+dist20_WAWA_free	: Labels with 20% or more distribution based on annotation by the free-choice approach
+dist20_WAWA_forced	: ... by the forced-choice approach
+
+**********************************
+
+itemworker-forced_vs_free.csv contains the annotation of each item by each worker using either or both approaches.
+
+itemid_forced	: item id of the item annotated by the specific worker using the forced-choice approach 
+                (empty: the item was not annotated by this worker using the forced-choice approach)
+workerid_forced	: worker id of the worker who annotated the specific item using the forced-choice approach 
+                (empty: the item was not annotated by this worker using the forced-choice approach)
+dc_forced	:  DC selected using the forced choice approach by the specific worker on the specific item, if annotated
+lev3_forced	: Level3 relation label represented by the DC annotated by the forced choice approach, if annotated
+lev2_forced	: Level2 relation label represented by the DC annotated by the forced choice approach, if annotated
+itemid_free	: item id of the item annotated by the specific worker using the free-choice approach 
+              (empty: the item was not annotated by this worker using the free-choice approach)
+workerid_free	: worker id of the worker who annotated the specific item using the free-choice approach 
+                (empty: the item was not annotated by this worker using the free-choice approach)
+dc_free_step1	: DC typed by the specific worker on the specific item during the first step of the free-choice approach, if annotated
+dc_free_step2	: DC selected by the specific worker on the specific item during the second step of the free-choice approach, if annotated
+lev3_free_step1	: Level3 relation label(s) represented by the DC typed in the first step of the free-choice approach, if annotated
+lev2_free_step1 : Level2 relation label(s) represented by the DC typed in the first step of the free-choice approach, if annotated
+lev3_free_step2 : Level3 relation label(s) represented by the DC selected in the second step of the free-choice approach, if annotated
+lev2_free_step2 : Level2 relation label(s) represented by the DC typed in the second step of the free-choice approach, if annotated
+
+************************************************
+
+16 duplicated labels in DiscoGeM 1.0 were removed:
+split cv_fold itemid
+train	6	cs_en_batch_16_item_12
+train	4	cs_en_batch_16_item_13
+train	3	cs_en_batch_16_item_14
+test	4	original_en_batch_05_item_12
+test	3	original_en_batch_05_item_13
+test	9	original_en_batch_06_item_01
+test	9	original_en_batch_06_item_05
+test	2	original_en_batch_06_item_06
+train	5	original_en_batch_11_item_04
+train	9	original_en_batch_11_item_17
+train	7	original_en_batch_12_item_15
+train	4	original_en_batch_12_item_18
+train	6	original_en_batch_13_item_05
+train	1	original_en_batch_27_item_07
+dev	7	original_en_batch_27_item_08
+test	8	original_en_batch_27_item_09
