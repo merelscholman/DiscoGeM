@@ -28,6 +28,7 @@ German                | 701 | 701  | -   | -
 French                | 739 | -    | 727 | -
 Czezh                 | 700 | -    |  -  | 697
 **Subtotal**        | **2558** | **1118**| **1141**| **697**
+Unknown               | 229 | - | - | -
 
  ***Literature***
 Original / data lang  | EN  | DE   | FR  | CS 
